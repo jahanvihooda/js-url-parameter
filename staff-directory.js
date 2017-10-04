@@ -19,7 +19,7 @@ function getURLParameter(Param) {
 }
 
 var urlParameter = getURLParameter('aff');
-console.log(url);
+console.log(urlParameter);
 
 /**
  *
@@ -28,12 +28,8 @@ console.log(url);
  *  and change value of drop down menu accordingly
  *
  */
-if (urlParameter == 'od') {
-    $('#staff-filter').val('Office of the Dean').change();
-}
-
-if (urlParameter == 'apd') {
-    $('#staff-filter').val('Academic & Program Directors').change();
+if (urlParameter == 'ftf') {
+    $('#faculty-filter').val('Full-time Faculty').change();
 }
 
 if (urlParameter == 'it') {
