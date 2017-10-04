@@ -39,3 +39,7 @@ if (urlParameter == 'it') {
 if (urlParameter == 'osas') {
     $('#staff-filter').val('Office of Student & Academic Services').change();
 }
+
+/**
+ * Jahanvi Hooda, 10/04/17 ends
+ */
