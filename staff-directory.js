@@ -19,7 +19,7 @@ function getURLParameter(Param) {
 }
 
 var urlParameter = getURLParameter('aff');
-console.log(urlParameter);
+//console.log(urlParameter);
 
 /**
  *
